@@ -45,5 +45,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "hprocess.env.REACT_APP_API_URL"
+  "proxy": "process.env.REACT_APP_API_URL"
 }
