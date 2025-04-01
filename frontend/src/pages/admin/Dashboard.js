@@ -51,7 +51,7 @@ import { useNavigate } from 'react-router-dom';
 
 // Create an axios instance with base URL and auth header
 const api = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'process.env.REACT_APP_API_URL',
   headers: {
     'Content-Type': 'application/json'
   },

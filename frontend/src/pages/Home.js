@@ -93,7 +93,7 @@ const Home = () => {
     const fetchData = async () => {
       if (!user) {
         try {
-          const response = await axios.get("http://localhost:5000/api/doctors");
+          const response = await axios.get("process.env.REACT_APP_API_URL/api/doctors");
           setDoctors(response.data);
         } catch (error) {
           console.error("Error fetching doctors:", error);

@@ -50,7 +50,7 @@ const Prescriptions = () => {
 
   const fetchPrescriptions = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/prescriptions', {
+      const response = await axios.get('process.env.REACT_APP_API_URL/api/prescriptions', {
         headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
       });
       setPrescriptions(response.data);
