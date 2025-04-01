@@ -39,7 +39,7 @@ import { useAuth } from "../context/AuthContext";
 
 // Create an axios instance with base URL and default headers
 const api = axios.create({
-  baseURL: "https://hospital-management-hfwi.onrender.com/api",
+  baseURL: "process.env.REACT_APP_API_URL/api",
   headers: {
     "Content-Type": "application/json",
   },
