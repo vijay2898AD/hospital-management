@@ -1,0 +1,9 @@
+{
+  "short_name": "Colgate Hospital's",
+  "name": "Colgate Hospital's - Healthcare Management System",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1976d2",
+  "background_color": "#ffffff"
+} 
